@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import "./Dummy.css"
 import ReactApexChart from 'react-apexcharts';
 import { useState } from 'react';
@@ -6,7 +6,7 @@ import { useState } from 'react';
 export const Dummy = () =>{
 
         // Sample data for the horizontal bar graph
-        const [chartData, setChartData] = useState({
+        const [chartData] = useState({
             series: [{
               data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380],
             }],

@@ -72,7 +72,7 @@ export const LoginDashboard = () => {
         />
 
         <button type="button" onClick={login}>Login</button>
-        <a href="#" onClick={forgotPassword}>Forgot your password?</a>
+        <a href='/' onClick={forgotPassword}>Forgot your password?</a>
       </form>
     </div>
   );
